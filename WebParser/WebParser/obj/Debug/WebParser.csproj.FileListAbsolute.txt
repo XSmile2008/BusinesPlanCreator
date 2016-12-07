@@ -1,0 +1,11 @@
+C:\Users\Dtctk\Desktop\SERVER\WebParser\WebParser\bin\Debug\WebParser.exe.config
+C:\Users\Dtctk\Desktop\SERVER\WebParser\WebParser\bin\Debug\WebParser.exe
+C:\Users\Dtctk\Desktop\SERVER\WebParser\WebParser\bin\Debug\WebParser.pdb
+C:\Users\Dtctk\Desktop\SERVER\WebParser\WebParser\obj\Debug\WebParser.csprojResolveAssemblyReference.cache
+C:\Users\Dtctk\Desktop\SERVER\WebParser\WebParser\obj\Debug\WebParser.Form1.resources
+C:\Users\Dtctk\Desktop\SERVER\WebParser\WebParser\obj\Debug\WebParser.Properties.Resources.resources
+C:\Users\Dtctk\Desktop\SERVER\WebParser\WebParser\obj\Debug\WebParser.csproj.GenerateResource.Cache
+C:\Users\Dtctk\Desktop\SERVER\WebParser\WebParser\obj\Debug\WebParser.exe
+C:\Users\Dtctk\Desktop\SERVER\WebParser\WebParser\obj\Debug\WebParser.pdb
+C:\Users\Dtctk\Desktop\SERVER\WebParser\WebParser\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Dtctk\Desktop\SERVER\WebParser\WebParser\bin\Debug\Newtonsoft.Json.xml

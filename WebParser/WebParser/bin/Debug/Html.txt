@@ -1,0 +1,621 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Кількість зайнятих працівників на суб’єктах господарювання за видами 
+економічної діяльності у 2013 році</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<style media="all" type="text/css">@import "/css/all.css";</style>
+</head>
+<body>
+<div id="page"> 
+	<div id="main">
+		<div id="logo">Ukrstat.org - публикація документів Державної Служби Статистики України</div>
+		<div id="header">
+            <div id="men">
+        	<ul>
+            <li><a href="/uk">Головна сторінка</a></li>
+            <li><a href="/uk/menu/publikac.htm">Публікації</a></li>
+            <li><a href="/uk/operativ/oper_new.html">Статистична інформация</a></li>
+            <li><a href="/uk/express/expres_u.html">Експрес-випуски</a></li>
+            <li><a href="/uk/metaopus/titul.htm">Метаописи держстатспостережень</a></li>
+            <li><a href="/about.html">Про сайт</a></li>
+            </ul>
+            <div id="lang3"><a href="/en"><img src="/images/en.png" border="0" /></a></div>
+            <div id="lang2"><a href="/"><img src="/images/russian.png" border="0"/></a></div>
+            <div id="lang1"><a href="/uk"><img src="/images/ukraine.png" border="0"/></a></div>
+            </div>
+      </div>
+        <div id="colleft">
+            <div id="nav">
+        	<ul>
+            <li><a href="/uk/menu/publikac.htm">Публікації</a></li>
+            <li><a href="/uk/operativ/oper_new.html">Статистична інформация</a></li>
+            <li><a href="/uk/express/expres_u.html">Експрес-випуски</a></li>
+            <li><a href="/uk/metaopus/titul.htm">Метаописи держстатспостережень</a></li>
+            <li><a href="/uk/menu/dkpl.htm">Плани та графіки роботи</a></li>
+            <li><a href="/uk/norm_doc/norm.htm">Нормативні та нормативно-правові акти Держстату</a></li>
+			<li class="ml"></li>
+			<li class="sl"></li>
+            </ul>
+            </div>
+        </div>
+		<div id="content">
+		
+
+
+
+<table border="0" cellspacing="0" width="100%" cellpadding="0" id="table2" style="margin: 0; padding: 0">
+  <tr>
+
+  <span style='mso-bidi-font-weight:
+  normal'>
+
+    <td width="50%">&nbsp;</td>
+    <td width="50%">
+
+  <p align="right"><font face="Verdana" size="2"><b>
+	<a href="/uk/operativ/operativ2012/fin/osp/kzp/kzp_u/arch_kzp_u.htm">
+	<font color="#1D5CB6">Архів</font></a></b></font></td>
+    </span>
+  </tr>
+</table>
+
+<p class="MsoNormal" align="center" style="text-align: center; margin-right: 0; margin-top: 0; margin-bottom: 0">
+<b><span lang="UK" style="font-family: Verdana"><font size="3">Кількість 
+зайнятих працівників суб’</font></span><span style="font-family: Verdana"><font size="3">єктів 
+господарювання </font></span>
+<span lang="UK" style="font-family: Verdana; color: black"><font size="3">за 
+видами економічної діяльності у </font></span>
+<span lang="UK" style="font-family: Verdana"><font size="3">201</font></span><span style="font-family: Verdana"><font size="3">4
+</font><span lang="UK" style="color:black"><font size="3">році</font></span></span><sup><span style="font-size: 10.0pt; font-family: Verdana; color: black">1</span></sup></b></p>
+<p class="MsoBodyText3" style="margin-right: 0; margin-top: 0; margin-bottom: 0">
+<b><span lang="UK" style="font-size:10.0pt;font-family:Verdana">&nbsp;</span></b></p>
+<div align="center">
+	<table class="MsoNormalTable" border="1" cellspacing="1" width="100%" style="margin: 0" id="table3">
+		<tr style="height: 1.0pt">
+			<td width="34%" rowspan="3" style="width: 25%; height: 1.0pt; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" align="center" style="text-align: center; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">&nbsp;</font></span></td>
+			<td width="10%" rowspan="3" style="width: 15%; height: 1.0pt; padding: .75pt">
+			<p class="MsoNormal" align="center" style="text-align: center; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">Усього,</font></span><span style="font-family: Verdana"><font size="2">
+			</font></span><span lang="UK" style="font-family: Verdana">
+			<font size="2">тис. осіб</font></span></td>
+			<td width="54%" colspan="4" style="width: 15%; height: 1.0pt; padding: .75pt">
+			<p class="MsoNormal" align="center" style="text-align: center; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">У тому 
+			числі</font></span></td>
+		</tr>
+		<tr style="height: 5.05pt">
+			<td width="26%" colspan="2" valign="top" style="width: 15%; height: 5.05pt; padding: .75pt">
+			<p class="MsoNormal" align="center" style="text-align: center; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">підприємства</font></span></td>
+			<td width="28%" colspan="2" valign="top" style="width: 15%; height: 5.05pt; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: .75pt; padding-bottom: .75pt">
+			<p class="MsoNormal" align="center" style="text-align: center; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">фізичні особи-підприємці</font></span></td>
+		</tr>
+		<tr style="height: 1.85pt">
+			<td width="11%" style="width: 15%; height: 1.85pt; padding: .75pt">
+			<p class="MsoNormal" align="center" style="text-align: center; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">тис. 
+			осіб</font></span></td>
+			<td width="15%" style="height: 1.85pt; padding: .75pt">
+			<p class="MsoNormal" align="center" style="text-align: center; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">у 
+			відсотках<br>
+			до загальної кількості</font></span></td>
+			<td width="11%" style="width: 15%; height: 1.85pt; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: .75pt; padding-bottom: .75pt">
+			<p class="MsoNormal" align="center" style="text-align: center; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">тис. 
+			осіб</font></span></td>
+			<td width="16%" style="width: 15%; height: 1.85pt; padding: .75pt">
+			<p class="MsoNormal" align="center" style="text-align: center; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">у 
+			відсотках<br>
+			до загальної кількості</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="top" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<b><span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">Усього</font></span></b></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right"><b>
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">8796,7</font></span></b></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right"><b>
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">6298,5</font></span></b></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right"><b>
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">100,0</font></span></b></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right"><b>
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">2498,2</font></span></b></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right"><b>
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">100,0</font></span></b></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">у тому числі</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">&nbsp;</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right"><b>
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">&nbsp;</font></span></b></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right"><b>
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">&nbsp;</font></span></b></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right"><b>
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">&nbsp;</font></span></b></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right"><b>
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">&nbsp;</font></span></b></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">
+			сільське, лісове та рибне господарство</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">733,4</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">628,9</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">10,0</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">104,5</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">4,2</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">
+			промисловість</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">2606,3</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">2429,6</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">38,6</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">176,7</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">7,1</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">
+			будівництво</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">318,5</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">286,1</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">4,5</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">32,4</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">1,3</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="top" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">оптова 
+			та роздрібна торгівля; ремонт автотранспортних засобів і мотоциклів</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">2409,3</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">1015,2</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">16,1</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">1394,1</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">55,8</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="top" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">
+			транспорт, складське господарство, поштова та кур’єрська діяльність</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">929,0</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">762,3</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">12,1</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">166,7</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">6,7</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="top" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">
+			тимчасове розміщування й організація харчування</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">213,2</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">101,5</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">1,6</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">111,7</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">4,5</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="top" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">
+			інформація та телекомунікації</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">306,3</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">192,7</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">3,1</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">113,6</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">4,5</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">
+			фінансова та страхова діяльність</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">69,9</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">61,8</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">1,0</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">8,1</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">0,3</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">операції 
+			з нерухомим майном</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">254,2</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">172,2</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">2,7</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">82,0</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">3,3</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">
+			професійна, наукова та технічна діяльність</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">336,0</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">232,2</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">3,7</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">103,8</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">4,1</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">
+			діяльність у сфері адміністративного та допоміжного обслуговування</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">313,0</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">270,9</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">4,3</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">42,1</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">1,7</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">освіта</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">31,0</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">20,6</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">0,3</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">10,4</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">0,4</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">охорона 
+			здоров’я та надання соціальної допомоги</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">92,3</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">67,7</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">1,1</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">24,6</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">1,0</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">
+			мистецтво, спорт, розваги та відпочинок</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">47,8</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">31,2</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">0,5</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">16,6</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">0,7</font></span></td>
+		</tr>
+		<tr>
+			<td width="34%" valign="bottom" style="width: 25%; padding-left: 5pt; padding-right: 5pt; padding-top: 0; padding-bottom: 0">
+			<p class="MsoNormal" style="margin-left: 7.1pt; margin-right: 0; margin-top: 0; margin-bottom: 0">
+			<span lang="UK" style="font-family: Verdana"><font size="2">надання 
+			інших видів послуг</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">136,5</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">25,6</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">0,4</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">110,9</font></span></td>
+			<td valign="bottom" style="padding-left: 0pt; padding-right: 0pt; padding-top: 0cm; padding-bottom: 0cm">
+			<p class="MsoNormal" align="right" style="text-align:right">
+			<span lang="UK" style="font-family: Verdana; color: black">
+			<font size="2">4,4</font></span></td>
+		</tr>
+	</table>
+</div>
+<p class="MsoNormal" align="left"><sup><span style="font-family: Verdana">
+<font size="2">1</font></span></sup><span style="font-family: Verdana"><font size="2">
+</font></span>
+<span lang="UK" style="font-family: Verdana; letter-spacing: -.2pt; layout-grid-mode: line">
+<font size="2">Без урахування результатів діяльності банків, бюджетних установ, 
+тимчасово окупованої території Автономної Республіки Крим, м. Севастополя та 
+частини</font></span><span lang="UK" style="font-family: Verdana; layout-grid-mode: line"><font size="2"> 
+зони проведення антитерористичної операції.</font></span></p>
+<p class="MsoNormal" align="left">
+
+
+</p>
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+<div id="footer">
+            <div id="menfotter">
+        	<ul>
+            <li><a href="/">Головна сторінка страница</a></li>
+            <li><a href="/menu/publikac_r.htm">Публікації</a></li>
+            <li><a href="/operativ/oper_new_rus.html">Статистична інформация</a></li>
+            </ul>
+            </div>
+	<div id="disclaimer">Сайт ukrstat.org не є офіційним сайтом Держстата. Офіційний сайт розташовано за адресою ukrstat.gov.ua. Деякі з документів що опубліковано на сайті ukrstat.org можут бути застарілими версіями орігінальних документів. Більш детальна інформация на сторінці <a href="http://ukrstat.org/about.html">http://ukrstat.org/about.html</a><br />
+	За будь-якими питаннями стосовно цього сайта звертайтеся за адресою: <img src="/images/email.gif" class="ukrstatemail"></div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24330377-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24330377-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></body> 
+</html>
