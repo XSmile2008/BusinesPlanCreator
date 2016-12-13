@@ -39,24 +39,84 @@ namespace WebParser
                 String sourceWebPage = request.Get(textBox1.Text).ToString();
                 sourceWebPage = ConvertSource(sourceWebPage);
                 String pattern1 = @"<font size=" + "\"" + "2" + "\">" + "(.*?)<" + "\\/font>";
+                String pattern2 = @"Verdana.*?"+"\">(.*?)<\\/span>";
+                String pattern3 = @"font-size:.?10.0pt.*?" + "\">(.*?)<\\/span>";
+                String pattern4 = @"Verdana.*?"+"\">(<font size="+"\"2"+"\">)?(.*?)(<\\/font>)?<\\/span>";
                 RegexOptions options = RegexOptions.Singleline | RegexOptions.Multiline;
                 Match m = Regex.Match(sourceWebPage, pattern1, options);
                 if (textBox1.Text.Contains("kzp_u_14.htm"))
                 {
-                    json3 = GetJsonHtml(m);
+                    json3 = GetJsonHtml3(m);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
                     OutputJSON(json3);
                 }
+                else if (textBox1.Text.Contains("ksg_u_14.htm"))
+                {
+                    json3 = GetJsonHtml2(m);
+                    OutputJSON(json3);
+                }
+                else if (textBox1.Text.Contains("kp_ed_u_2015.htm"))
+                {
+                    json3 = GetJsonHtml1(m, 17);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    OutputJSON(json3);
+                }
+                else
+                if (textBox1.Text.Contains("rodp_ed_0116_u.htm"))
+                {
+                    Match m1 = Regex.Match(sourceWebPage, pattern2, options);
+                    json3 = GetJsonHtml4(m1);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    OutputJSON(json3);
+                }
+                else if (textBox1.Text.Contains("orp_ed_u_2015.htm"))
+                {
+                    json3 = GetJsonHtml5(m, 24);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    OutputJSON(json3);
+                }
+                else if (textBox1.Text.Contains("ovpp_2014_u.htm"))
+                {
+                    json3 = GetJsonHtml5(m, 21);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    OutputJSON(json3);
+                }
+                else if (textBox1.Text.Contains("chpr_ed_0116_u.htm"))
+                {
+                    Match m3 = Regex.Match(sourceWebPage, pattern3, options);
+                    json3 = GetJsonHtml6(m3);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    OutputJSON(json3);
+                }
+                else if (textBox1.Text.Contains("vpp_ed_u_2015.htm"))
+                {
+                    Match m4 = Regex.Match(sourceWebPage, pattern4, options);
+                    json3 = GetJsonHtml1(m4,20);
+                    json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+                    OutputJSON(json3);
+                }
+
+
+
             }
-          
+
 
 
         }
 
         public void OutputJSON(HtmlToJson json3)
         {
-            json3?.Datas.Remove(json3.Datas[json3.Datas.Count - 1]);
+           
             string output = JsonConvert.SerializeObject(json3);
-            File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + "JsonData.json", output, Encoding.GetEncoding(1251));
+            File.WriteAllText(AppDomain.CurrentDomain.BaseDirectory + "DocumentJson.json", output, Encoding.GetEncoding(1251));
             textBox2.Clear();
             textBox2.Text = output;
         }
@@ -73,7 +133,354 @@ namespace WebParser
             return count;
         }
 
-        public HtmlToJson GetJsonHtml(Match m)
+        public HtmlToJson GetJsonHtml6(Match m)
+        {
+            HtmlToJson json3 = new HtmlToJson();
+            int lengthMatch = GetCountMatch(m);
+            for (int i = 0; i < lengthMatch; i++)
+            {
+
+                if (i >= 17)
+                {
+                    Data tmpData = new Data();
+                    tmpData.NameRow = m.Groups[1].Value.Replace("\t", String.Empty);
+                    if (i == 17)
+                    {
+                        m = m.NextMatch();
+                        tmpData.NameRow = m.Groups[1].Value.Replace("\t", String.Empty);
+                        i++;
+                    }
+
+                    for (int j = 0; j < 5; j++)
+                    {
+                        i++;
+                        m = m.NextMatch();
+                        Column tmpColumn = new Column();
+                      
+                        switch (j)
+                        {
+                            case 0:
+                                tmpColumn.NameColumn = "Фінансовий результат(сальдо)";
+                                break;
+                            case 1:
+                                tmpColumn.NameColumn = "Підприємства,які одержали прибуток у % до загальної кількості";
+                                break;
+                            case 2:
+                                tmpColumn.NameColumn = "Підприємства,які одержали прибуток фінансовий результат";
+                                break;
+                            case 3:
+                                tmpColumn.NameColumn = "Підприємства,які одержали збиток у % до загальної кількості";
+                                break;
+                            case 4:
+                                tmpColumn.NameColumn = "Підприємства,які одержали збиток фінансовий результат";
+                                break;
+
+                        }
+                        try
+                        {
+                            tmpColumn.Value = Convert.ToSingle(m.Groups[1].Value);
+                        }
+                        catch
+                        {
+                            tmpColumn.Value = 0;
+                        }
+
+                        tmpData.Columns.Add(tmpColumn);
+                    }
+                    json3.Datas.Add(tmpData);
+                }
+                m = m.NextMatch();
+            }
+            json3.Link = textBox1.Text;
+            return json3;
+        }
+
+
+
+
+        public HtmlToJson GetJsonHtml5(Match m, int index)
+        {
+            HtmlToJson json3 = new HtmlToJson();
+            int lengthMatch = GetCountMatch(m);
+            for (int i = 0; i < lengthMatch; i++)
+            {
+
+                if (i >=index)
+                {
+                    Data tmpData = new Data();
+                    tmpData.NameRow = m.Groups[1].Value.Replace("\t", String.Empty);
+                    if(index!=21)
+                    m = (i == index) ? m.NextMatch() : m;
+                   
+                    for (int j = 0; j < 9; j++)
+                    {
+                        i++;
+                        m = m.NextMatch();
+                        Column tmpColumn = new Column();
+                        if (m.Groups[1].Value.Contains("…"))
+                            m = m.NextMatch();
+                        switch (j)
+                        {
+                            case 0:
+                                tmpColumn.NameColumn = "Усього млн.грн";
+                                break;
+                            case 1:
+                                tmpColumn.NameColumn = "Великі підприємства, млн.грн";
+                                break;
+                            case 2:
+                                tmpColumn.NameColumn = "Великі підприємства, у відсотках до загальної кількості";
+                                break;
+                            case 3:
+                                tmpColumn.NameColumn = "Середні підприємства, млн.грн";
+                                break;
+                            case 4:
+                                tmpColumn.NameColumn = "Середні підприємства, у відсотках до загальної кількості";
+                                break;
+                            case 5:
+                                tmpColumn.NameColumn = "Малі підприємства,млн.грн";
+                                break;
+                            case 6:
+                                tmpColumn.NameColumn = "Малі підприємства, у відсотках до загальної кількості";
+                                break;
+                            case 7:
+                                tmpColumn.NameColumn = "Мікропідприємства,млн.грн";
+                                break;
+                            case 8:
+                                tmpColumn.NameColumn = "Мікропідприємства, у відсотках до загальної кількості";
+                                break;
+
+                        }
+                        try
+                        {
+                            tmpColumn.Value = Convert.ToSingle(m.Groups[1].Value);
+                        }
+                        catch
+                        {
+                            tmpColumn.Value = 0;
+                        }
+
+                        tmpData.Columns.Add(tmpColumn);
+                    }
+                    json3.Datas.Add(tmpData);
+                }
+                m = m.NextMatch();
+            }
+            json3.Link = textBox1.Text;
+            return json3;
+        }
+
+        public HtmlToJson GetJsonHtml4(Match m)
+        {
+            HtmlToJson json3 = new HtmlToJson();
+            int lengthMatch = GetCountMatch(m);
+            for (int i = 0; i < lengthMatch; i++)
+            {
+
+                if (i > 22)
+                {
+                    Data tmpData = new Data();
+                    tmpData.NameRow = m.Groups[1].Value.Replace("\t", String.Empty);
+                    for (int j = 0; j < 3; j++)
+                    {
+                        i++;
+                        m = m.NextMatch();
+                        Column tmpColumn = new Column();
+
+                        switch (j)
+                        {
+                            case 0:
+                                tmpColumn.NameColumn = "Результати від операційної діяльності";
+                                break;
+                            case 1:
+                                tmpColumn.NameColumn = "Витрати операційної діяльності";
+                                break;
+                            case 2:
+                                tmpColumn.NameColumn = "Рівень рентабельності збитковості";
+                                break;
+                         
+                        }
+                        try
+                        {
+                            tmpColumn.Value = Convert.ToSingle(m.Groups[1].Value);
+                        }
+                        catch
+                        {
+                            tmpColumn.Value = 0;
+                        }
+
+                        tmpData.Columns.Add(tmpColumn);
+                    }
+                    json3.Datas.Add(tmpData);
+                }
+                m = m.NextMatch();
+            }
+            json3.Link = textBox1.Text;
+            return json3;
+        }
+        public HtmlToJson GetJsonHtml1(Match m,int index)
+        {
+            int indexGroup = (index == 20) ? 2 : 1; 
+            HtmlToJson json3 = new HtmlToJson();
+            int lengthMatch = GetCountMatch(m);
+            for (int i = 0; i < lengthMatch; i++)
+            {
+
+                if (i >= index )
+                {
+                    Data tmpData = new Data();
+                    tmpData.NameRow = m.Groups[indexGroup].Value.Replace("\t", String.Empty);
+                    m = (i == index) ? m.NextMatch() : m;
+                    for (int j = 0; j < 9; j++)
+                    {
+                        i++;
+                        m = m.NextMatch();
+                        Column tmpColumn = new Column();
+
+                        switch (j)
+                        {
+                            case 0:
+                                tmpColumn.NameColumn = "Усього одиниць";
+                                break;
+                            case 1:
+                                tmpColumn.NameColumn = "Великі підприємства, одиниць";
+                                break;
+                            case 2:
+                                tmpColumn.NameColumn = "Великі підприємства, у відсотках до загальної кількості";
+                                break;
+                            case 3:
+                                tmpColumn.NameColumn = "Середні підприємства, одиниць";
+                                break;
+                            case 4:
+                                tmpColumn.NameColumn = "Середні підприємства, у відсотках до загальної кількості";
+                                break;
+                            case 5:
+                                tmpColumn.NameColumn = "Малі підприємства, одиниць";
+                                break;
+                            case 6:
+                                tmpColumn.NameColumn = "Малі підприємства, у відсотках до загальної кількості";
+                                break;
+                            case 7:
+                                tmpColumn.NameColumn = "Мікропідприємства, одиниць";
+                                break;
+                            case 8:
+                                tmpColumn.NameColumn = "Мікропідприємства, у відсотках до загальної кількості";
+                                break;
+                           
+                        }
+                        try
+                        {
+                            tmpColumn.Value = Convert.ToSingle(m.Groups[indexGroup].Value);
+                        }
+                        catch
+                        {
+                            tmpColumn.Value = 0;
+                        }
+
+                        tmpData.Columns.Add(tmpColumn);
+                    }
+                    json3.Datas.Add(tmpData);
+                }
+                m = m.NextMatch();
+            }
+            json3.Link = textBox1.Text;
+            return json3;
+        }
+        public HtmlToJson GetJsonHtml2(Match m)
+        {
+            HtmlToJson json3 = new HtmlToJson();
+            int lengthMatch = GetCountMatch(m);
+            for (int i = 0; i < lengthMatch; i++)
+            {
+
+                if (i == 10||i>17)
+                {
+                    Data tmpData = new Data();
+                    tmpData.NameRow = m.Groups[1].Value.Replace("\t", String.Empty);
+                    m =(i == 10)?m.NextMatch():m;
+                    for (int j = 0; j < 5; j++)
+                    {
+                        i++;
+                        m = m.NextMatch();
+                        Column tmpColumn = new Column();
+
+                        switch (j)
+                        {
+                            case 0:
+                                tmpColumn.NameColumn = "Усього, тис. осіб";
+                                break;
+                            case 1:
+                                tmpColumn.NameColumn = "Підприємства, тис. осіб";
+                                break;
+                            case 2:
+                                tmpColumn.NameColumn = "Підприємства, у відсотках до загальної кількості";
+                                break;
+                            case 3:
+                                tmpColumn.NameColumn = "Фізичні особи-підприєпмці, тис. осіб";
+                                break;
+                            case 4:
+                                tmpColumn.NameColumn = "Фізичні особи-підприєпмці, у відсотках до загальної кількості";
+                                break;
+                        }
+                        try
+                        {
+                            tmpColumn.Value = Convert.ToSingle(m.Groups[1].Value);
+                        }
+                        catch
+                        {
+                            tmpColumn.Value = 0;
+                        }
+
+                        tmpData.Columns.Add(tmpColumn);
+                    }
+                    json3.Datas.Add(tmpData);
+                }else if (i == 17)
+                {
+                    Data tmpData = new Data();
+                    tmpData.NameRow = m.Groups[1].Value.Replace("\t", String.Empty);
+                    for (int j = 0; j < 5; j++)
+                    {
+                        i++;
+                       
+                        Column tmpColumn = new Column();
+
+                        switch (j)
+                        {
+                            case 0:
+                                tmpColumn.NameColumn = "Усього, тис. осіб";
+                                break;
+                            case 1:
+                                tmpColumn.NameColumn = "Підприємства, тис. осіб";
+                                break;
+                            case 2:
+                                tmpColumn.NameColumn = "Підприємства, у відсотках до загальної кількості";
+                                break;
+                            case 3:
+                                tmpColumn.NameColumn = "Фізичні особи-підприєпмці, тис. осіб";
+                                break;
+                            case 4:
+                                tmpColumn.NameColumn = "Фізичні особи-підприєпмці, у відсотках до загальної кількості";
+                                break;
+                        }
+                        try
+                        {
+                            tmpColumn.Value = Convert.ToSingle(m.Groups[1].Value);
+                        }
+                        catch
+                        {
+                            tmpColumn.Value = 0;
+                        }
+
+                        tmpData.Columns.Add(tmpColumn);
+                    }
+                    json3.Datas.Add(tmpData);
+                }
+                m = m.NextMatch();
+            }
+            json3.Link = textBox1.Text;
+            return json3;
+        }
+
+        public HtmlToJson GetJsonHtml3(Match m)
         {
             HtmlToJson json3 = new HtmlToJson();
             int lengthMatch = GetCountMatch(m);
