@@ -1,0 +1,31 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<BorderPane prefHeight="Infinity" prefWidth="Infinity"
+            fx:controller="sample.controllers.MainController"
+            xmlns:fx="http://javafx.com/fxml">
+
+    <center>
+        <VBox spacing="4">
+            <padding>
+                <Insets bottom="8" left="8" right="8" top="8"/>
+            </padding>
+
+            <Label text="Проектувальник бізнес плану Шось"/>
+
+            <Separator/>
+
+            <VBox spacing="4">
+                <Button onAction="#onLoadDataClick" text="Завантажити данні"/>
+                <Button text="Побудова бізнес плану"/>
+            </VBox>
+
+            <HBox spacing="4" VBox.vgrow="ALWAYS">
+                <TableView fx:id="tableViewNames" minWidth="240"/>
+                <TableView fx:id="tableViewData"/>
+            </HBox>
+        </VBox>
+    </center>
+</BorderPane>
