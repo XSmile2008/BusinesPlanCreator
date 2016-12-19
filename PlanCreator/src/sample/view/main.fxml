@@ -7,8 +7,8 @@
             fx:controller="sample.controllers.MainController"
             xmlns:fx="http://javafx.com/fxml">
 
-    <center>
-        <VBox spacing="4">
+    <top>
+        <VBox>
             <padding>
                 <Insets bottom="8" left="8" right="8" top="8"/>
             </padding>
@@ -17,15 +17,18 @@
 
             <Separator/>
 
-            <VBox spacing="4">
+            <HBox spacing="4">
                 <Button onAction="#onLoadDataClick" text="Завантажити данні"/>
-                <Button text="Побудова бізнес плану"/>
-            </VBox>
-
-            <HBox spacing="4" VBox.vgrow="ALWAYS">
-                <TableView fx:id="tableViewNames" minWidth="240"/>
-                <TableView fx:id="tableViewData"/>
+                <Button fx:id="btnBuild" onAction="#onBuildClick" text="Побудова бізнес плану" disable="true"/>
             </HBox>
         </VBox>
+    </top>
+
+    <left>
+        <TableView fx:id="tableViewNames" minWidth="240" prefWidth="240" maxWidth="240"/>
+    </left>
+
+    <center>
+        <TableView fx:id="tableViewData"/>
     </center>
 </BorderPane>

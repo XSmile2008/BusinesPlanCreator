@@ -10,6 +10,7 @@ import javafx.scene.text.TextAlignment;
  */
 public class WrapTableColumn<S, T> extends TableColumn<S, T> {
 
+    @SuppressWarnings("unused")
     public WrapTableColumn() {
         super();
         buildGraphic();

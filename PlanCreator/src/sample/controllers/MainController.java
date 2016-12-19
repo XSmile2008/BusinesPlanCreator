@@ -7,13 +7,14 @@ import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.event.Event;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Control;
-import javafx.scene.control.ScrollBar;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.*;
 import javafx.scene.layout.Pane;
 import javafx.stage.DirectoryChooser;
+import javafx.stage.Stage;
 import sample.Cache;
 import sample.model.BusinessKind;
 import sample.model.JsonTable;
@@ -27,6 +28,7 @@ public class MainController implements Initializable {
 
     @FXML TableView<BusinessKind> tableViewNames;
     @FXML TableView<BusinessKind> tableViewData;
+    @FXML Button btnBuild;
 
     private Gson gson = new Gson();
 
@@ -85,6 +87,22 @@ public class MainController implements Initializable {
         }
     }
 
+    @FXML
+    private void onBuildClick() {
+        try {
+            URL url = getClass().getResource("/sample/view/form.fxml");
+            if (url != null) {
+                Parent root = FXMLLoader.load(url);
+                Stage stage = new Stage();
+                stage.setTitle("My New Stage Title");
+                stage.setScene(new Scene(root, 1024, 600));
+                stage.show();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     private void loadDataFromFiles(File... files) {
         for (File f : files) {
             JsonTable table = null;
@@ -100,6 +118,7 @@ public class MainController implements Initializable {
         }
         tableViewData.getItems().clear();
         tableViewData.getItems().addAll(Cache.getInstance().businessKinds);
+        btnBuild.setDisable(false);
     }
 
     private TableColumn buildSgCountColumn() {

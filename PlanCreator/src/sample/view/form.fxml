@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.112"
+            fx:controller="sample.controllers.FormController">
+
+    <top>
+        <HBox>
+            <padding>
+                <Insets top="8" bottom="8" left="8" right="8"/>
+            </padding>
+
+            <Button text="Експортувати в Excel"/>
+        </HBox>
+    </top>
+
+    <center>
+        <Accordion>
+            <panes>
+                <TitledPane text="Основні данні">
+                    <GridPane hgap="4" vgap="4">
+                        <Label GridPane.rowIndex="0" GridPane.columnIndex="0" text="Назва підприємства"/>
+                        <TextField GridPane.rowIndex="0" GridPane.columnIndex="1" promptText="Назва"/>
+
+                        <Label GridPane.rowIndex="1" GridPane.columnIndex="0" text="Обрана грошова одиниця"/>
+                        <TextField GridPane.rowIndex="1" GridPane.columnIndex="1" promptText="грн. дол. євр."/>
+
+                        <Label GridPane.rowIndex="2" GridPane.columnIndex="0" text="Мінімальна одиниця продукції"/>
+                        <TextField GridPane.rowIndex="2" GridPane.columnIndex="1" promptText="0"/>
+
+                        <Label GridPane.rowIndex="3" GridPane.columnIndex="0" text="Обсяг продажів на місяць"/>
+                        <TextField GridPane.rowIndex="3" GridPane.columnIndex="1" promptText="0"/>
+                    </GridPane>
+                </TitledPane>
+
+                <TitledPane text="Постійні витрати за місяць">
+                    <VBox spacing="8">
+                        <TableView fx:id="tableConstantCosts" VBox.vgrow="ALWAYS"/>
+                        <HBox spacing="4">
+                            <Button text="Додати елемент"/>
+                            <Button text="Видалити елемент"/>
+                        </HBox>
+                    </VBox>
+                </TitledPane>
+
+                <TitledPane text="Змінні витрати за місяць">
+                    <VBox spacing="8">
+                        <TableView fx:id="tableVariableCosts" VBox.vgrow="ALWAYS"/>
+                        <HBox spacing="4">
+                            <Button text="Додати елемент"/>
+                            <Button text="Видалити елемент"/>
+                        </HBox>
+                    </VBox>
+                </TitledPane>
+            </panes>
+        </Accordion>
+    </center>
+</BorderPane>
