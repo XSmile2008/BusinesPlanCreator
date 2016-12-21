@@ -37,20 +37,20 @@
 
                 <TitledPane text="Постійні витрати за місяць">
                     <VBox spacing="8">
-                        <TableView fx:id="tableConstantCosts" VBox.vgrow="ALWAYS"/>
+                        <TableView fx:id="tableConstantCosts" VBox.vgrow="ALWAYS" editable="true"/>
                         <HBox spacing="4">
-                            <Button text="Додати елемент"/>
-                            <Button text="Видалити елемент"/>
+                            <Button fx:id="btnAddConstantCost" onAction="#onClick" text="Додати елемент"/>
+                            <Button fx:id="btnRemoveConstantCost" onAction="#onClick" text="Видалити елемент"/>
                         </HBox>
                     </VBox>
                 </TitledPane>
 
                 <TitledPane text="Змінні витрати за місяць">
                     <VBox spacing="8">
-                        <TableView fx:id="tableVariableCosts" VBox.vgrow="ALWAYS"/>
+                        <TableView fx:id="tableVariableCosts" VBox.vgrow="ALWAYS" editable="true"/>
                         <HBox spacing="4">
-                            <Button text="Додати елемент"/>
-                            <Button text="Видалити елемент"/>
+                            <Button fx:id="btnAddVariableCost" onAction="#onClick" text="Додати елемент"/>
+                            <Button fx:id="btnRemoveVariableCost" onAction="#onClick" text="Видалити елемент"/>
                         </HBox>
                     </VBox>
                 </TitledPane>

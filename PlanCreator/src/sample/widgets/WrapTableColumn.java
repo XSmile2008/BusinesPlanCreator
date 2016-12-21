@@ -34,6 +34,4 @@ public class WrapTableColumn<S, T> extends TableColumn<S, T> {
 
         setGraphic(columnTitle);
     }
-
-
 }
