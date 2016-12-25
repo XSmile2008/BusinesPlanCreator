@@ -10,7 +10,7 @@ import java.io.*;
 import java.util.Iterator;
 
 /**
- * Created by vladstarikov on 12/25/16.
+ * Created by melnikov_kolya on 12/24/16.
  */
 public class Exporter {
 
@@ -74,25 +74,25 @@ public class Exporter {
                 Iterator<Cost> varCost = bp.variableCosts.iterator();
 
                 int currRow = sumRow;
-
                 Cost curr;
-
-                while (constCost.hasNext() && varCost.hasNext()) {
-                    curr = constCost.next();
-
+                while (constCost.hasNext() || varCost.hasNext()) {
                     sheet.createRow(currRow);
                     sheet.getRow(currRow).createCell(0);
                     sheet.getRow(currRow).createCell(1);
                     sheet.getRow(currRow).createCell(2);
                     sheet.getRow(currRow).createCell(3);
 
-                    sheet.getRow(currRow).getCell(0).setCellValue(curr.name);
-                    sheet.getRow(currRow).getCell(1).setCellValue(curr.value);
+                    if (constCost.hasNext()) {
+                        curr = constCost.next();
+                        sheet.getRow(currRow).getCell(0).setCellValue(curr.name);
+                        sheet.getRow(currRow).getCell(1).setCellValue(curr.value);
+                    }
 
-                    curr = varCost.next();
-
-                    sheet.getRow(currRow).getCell(2).setCellValue(curr.name);
-                    sheet.getRow(currRow).getCell(3).setCellValue(curr.value);
+                    if (varCost.hasNext()) {
+                        curr = varCost.next();
+                        sheet.getRow(currRow).getCell(2).setCellValue(curr.name);
+                        sheet.getRow(currRow).getCell(3).setCellValue(curr.value);
+                    }
 
                     currRow++;
                 }
@@ -104,10 +104,10 @@ public class Exporter {
                 sheet.getRow(currRow).createCell(3);
 
                 sheet.getRow(currRow).getCell(0).setCellValue(contentConst);
-                sheet.getRow(currRow).getCell(1).setCellFormula("SUM(B13:B" + String.valueOf(currRow - 1) + ")");
+                sheet.getRow(currRow).getCell(1).setCellFormula("SUM(B13:B" + String.valueOf(currRow) + ")");
 
                 sheet.getRow(currRow).getCell(2).setCellValue(contentVar);
-                sheet.getRow(currRow).getCell(3).setCellFormula("SUM(D13:D" + String.valueOf(currRow - 1) + ")");
+                sheet.getRow(currRow).getCell(3).setCellFormula("SUM(D13:D" + String.valueOf(currRow) + ")");
 
                 sheet.getRow(currRow).setHeight((short) (defRowHeight * 2));
 
@@ -117,7 +117,7 @@ public class Exporter {
                     sheet.getRow(index).getCell(5).setCellFormula("F" + String.valueOf(index) + "+$F$5");
 
                 for (int index = 4; index < 11; index++)
-                    sheet.getRow(index).getCell(6).setCellFormula("F" + String.valueOf(index + 1) + "+$B$6");
+                    sheet.getRow(index).getCell(6).setCellFormula("F" + String.valueOf(index + 1) + "*$B$6");
 
                 for (int index = 4; index < 11; index++)
                     sheet.getRow(index).getCell(7).setCellFormula("$B$" + String.valueOf(currRow + 1));

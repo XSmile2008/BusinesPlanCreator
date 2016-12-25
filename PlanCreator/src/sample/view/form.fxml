@@ -48,7 +48,7 @@
                     </VBox>
                 </TitledPane>
 
-                <TitledPane text="Змінні витрати за місяць">
+                <TitledPane text="Витрати на одиницю продукції">
                     <VBox spacing="8">
                         <TableView fx:id="tableVariableCosts" VBox.vgrow="ALWAYS" editable="true"/>
                         <HBox spacing="4">
