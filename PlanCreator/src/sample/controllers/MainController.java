@@ -74,6 +74,10 @@ public class MainController implements Initializable {
 
         tableViewNames.setItems(tableViewData.getItems());//Synchronize values
         tableViewNames.selectionModelProperty().bindBidirectional(tableViewData.selectionModelProperty());
+        tableViewNames.getSelectionModel().selectedIndexProperty().addListener((observable, oldValue, newValue) -> {
+            Cache.getInstance().selectedBusinessKind = newValue.intValue();
+            btnBuild.setDisable(false);
+        });
     }
 
     @FXML
@@ -118,7 +122,6 @@ public class MainController implements Initializable {
         }
         tableViewData.getItems().clear();
         tableViewData.getItems().addAll(Cache.getInstance().businessKinds);
-        btnBuild.setDisable(false);
     }
 
     private TableColumn buildSgCountColumn() {

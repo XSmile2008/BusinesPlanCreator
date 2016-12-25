@@ -8,7 +8,7 @@ package sample.model;
 public class Cost {
 
     public String name;
-    public double value;
+    public int value;
 
     public Cost() {}
 

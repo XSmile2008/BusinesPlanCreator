@@ -32,6 +32,8 @@ public final class Cache {
     @NotNull
     public List<BusinessKind> businessKinds = new ArrayList<>();
 
+    public int selectedBusinessKind = -1;
+
     private static volatile Cache instance;
 
     private Cache() {

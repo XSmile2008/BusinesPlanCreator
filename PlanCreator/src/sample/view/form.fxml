@@ -12,7 +12,7 @@
                 <Insets top="8" bottom="8" left="8" right="8"/>
             </padding>
 
-            <Button text="Експортувати в Excel"/>
+            <Button onAction="#export" text="Експортувати в Excel"/>
         </HBox>
     </top>
 
@@ -22,16 +22,19 @@
                 <TitledPane text="Основні данні">
                     <GridPane hgap="4" vgap="4">
                         <Label GridPane.rowIndex="0" GridPane.columnIndex="0" text="Назва підприємства"/>
-                        <TextField GridPane.rowIndex="0" GridPane.columnIndex="1" promptText="Назва"/>
+                        <TextField fx:id="fName" GridPane.rowIndex="0" GridPane.columnIndex="1" promptText="Назва"/>
 
                         <Label GridPane.rowIndex="1" GridPane.columnIndex="0" text="Обрана грошова одиниця"/>
-                        <TextField GridPane.rowIndex="1" GridPane.columnIndex="1" promptText="грн. дол. євр."/>
+                        <TextField fx:id="fCurrency" GridPane.rowIndex="1" GridPane.columnIndex="1" promptText="грн. дол. євр."/>
 
                         <Label GridPane.rowIndex="2" GridPane.columnIndex="0" text="Мінімальна одиниця продукції"/>
-                        <TextField GridPane.rowIndex="2" GridPane.columnIndex="1" promptText="0"/>
+                        <TextField fx:id="fUnitOfMeasurement" GridPane.rowIndex="2" GridPane.columnIndex="1" promptText="0"/>
 
-                        <Label GridPane.rowIndex="3" GridPane.columnIndex="0" text="Обсяг продажів на місяць"/>
-                        <TextField GridPane.rowIndex="3" GridPane.columnIndex="1" promptText="0"/>
+                        <Label GridPane.rowIndex="3" GridPane.columnIndex="0" text="Ціна однієї одиниці продукції"/>
+                        <TextField fx:id="fOnePeacePrice" GridPane.rowIndex="3" GridPane.columnIndex="1" promptText="0"/>
+
+                        <Label GridPane.rowIndex="4" GridPane.columnIndex="0" text="Обсяг продажів на місяць"/>
+                        <TextField fx:id="fMonthlySales" GridPane.rowIndex="4" GridPane.columnIndex="1" promptText="0"/>
                     </GridPane>
                 </TitledPane>
 

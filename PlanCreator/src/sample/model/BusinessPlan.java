@@ -9,7 +9,8 @@ public class BusinessPlan {
 
     public String businessName;
     public String currency;
-    public String unitOfMeasurment;//pieces, ton's, liters
+    public String unitOfMeasurement;//pieces, ton's, liter
+    public int onePeacePrice;
     public int monthlySales;
 
     public List<Cost> constantCosts;
